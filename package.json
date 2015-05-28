@@ -1,6 +1,6 @@
 {
   "name": "rake-command-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "download mock data form rap system",
   "main": "index.js",
   "scripts": {
