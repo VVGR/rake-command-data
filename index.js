@@ -11,7 +11,8 @@ exports.register = function(commander) {
         util.initProject();
 
         var rapId = fis.config.get('rapId');
-        util.updateData( rapId );
+        var rapUrl = fis.config.get('rapUrl');
+        util.updateData( rapUrl + rapId );
     });
 
 };
